@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    width: 83.333%;
+    max-width: 1200px;
+    margin: 0, auto;
+} */
+.primary-head {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.primary-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ==========================================Successful Aerial Surveys========================================= */
+#survey {
+    margin: 120px 0;
+}
+
+#survey .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#survey .container h2 {
+    text-align: center;
+}
+
+#survey .container p {
+    text-align: center;
+}
+
+#survey .container .survey_result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#survey .container .survey_result .survey-part {
+    text-align: center;
+}
+
+#survey .container .survey_result .num {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#survey .container .survey_result .s-t {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#survey .container .survey_result img {
+    width: 88px;
+    height: 88px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================SERVICES============================================ */
+#service .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#service .container h3 {
+    text-align: center;
+}
+
+#service .container p {
+    text-align: center;
+}
+
+#service .container .description {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#service .container .description .row {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#service .container .description .row h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#service .container .description .row .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 30px 0;
+    gap: 23px;
+}
+
+#service .container .description .row .col .text-r1 p {
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#service .container .description .row .col .text-r2 p {
+    color: #000;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#service i {
+    color: #3FCAD7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================team member======================================== */
+#team {
+    margin: 120px 0;
+}
+
+#team .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#team .container .member {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+#team .container .member .man h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 23px 0 11px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================clients============== */
+#clients {
+    background-color: rgb(236, 250, 251);
+}
+
+#clients .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#clients .container .client-say {
+    text-align: right;
+
+}
+
+#clients .container .review {
+    text-align: center;
+}
+
+#clients .container .review .costomar {
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid var(--Sea-Serpent, #3FCAD7);
+    /* opacity: 0.3; */
+    padding: 40px 76px;
+
+}
+
+#clients .container .review .costomar p {
+    margin: 20px 0;
+}
+
+#clients .container .review .dit i {
+    color: #3FCAD7;
+}
+
+/* ==========================================================footer============================================== */
+footer {
+    background-color: #414141;
+}
+
+.fh {
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 122%;
+}
+
+.ft {
+    color: #FFF;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 122%;
+}
+
+#footer {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+#footer .droneorzo .img-h {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+#footer .droneorzo .img-h h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#footer .droneorzo .text {
+    margin-top: 10px;
+}
+
+/* =========================== */
+#footer .categories .link {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer .categories .link a {
+    margin: 7px 0;
+    text-decoration: none;
+
+}
+
+/* =============================== */
+#footer .info .link {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer .info .link a {
+    margin: 7px 0;
+    text-decoration: none;
+}
+
+/* ================================= */
+#footer .get-in-touch p {
+    margin: 7px 0;
+}
+
+#footer .get-in-touch p i {
+    color: #3FCAD7;
+}
+
+#footer .get-in-touch label input {
+    background-color: #414141;
+    padding: 11px 25px 8px 13px;
+    border: 1px solid #3FCAD7;
+    border-radius: 6px;
+}
+
+#footer .get-in-touch label i {
+    cursor: pointer;
+    background-color: #3FCAD7;
+    border-radius: 6px;
+    padding: 13px;
+    position: relative;
+    right: 25px;
+}
